@@ -372,7 +372,6 @@ body {
 
 .footer-text {
     color: var(--team-filter-footer-background);
-    width: 264px;
     margin-bottom: 16px;
 }
 
@@ -386,6 +385,9 @@ body {
 .footer .soc-icon-link:hover,
 .footer .soc-icon-link:focus{
     background-color: var(--footer-icon-hover-color);
+}
+.footer-soc{
+    margin-right: 80px;
 }
 .footer-form{
     display: flex;
@@ -401,6 +403,7 @@ body {
     transition: border-color var(--transition-durartion-timing);
     padding-left: 16px;
     margin-right: 24px;
+    color: #FFFFFF;
 }
 .input-subscribe:focus{
     border-color: var(--hover-color);
@@ -436,7 +439,7 @@ body {
     width: 100%;
     height: 100%;
     top: 0;
-    background-color: var(--modal-text-color);
+    background-color: rgba(46, 47, 66, 0.4);
     transition: opacity var(--transition-durartion-timing), visibility var(--transition-durartion-timing);
 }
 .modal{
